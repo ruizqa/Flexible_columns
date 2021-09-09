@@ -1,0 +1,41 @@
+.row{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    min-height: 80px;
+    max-height: 80%;
+}
+
+.row .col{
+
+    background-color: rgb(43, 150, 169);
+    color:white;
+    margin: 5px;
+    text-align: left;
+    padding: 40px 10px;
+    flex: 1;
+    
+
+}
+
+.row .col-2{
+
+    background-color: rgb(43, 150, 169);
+    color:white;
+    margin: 5px;
+    text-align: left;
+    padding: 40px 10px;
+    flex: 2;
+
+}
+
+.row .col-3{
+
+    background-color: rgb(43, 150, 169);
+    color:white;
+    margin: 5px;
+    text-align: left;
+    padding: 40px 10px;
+    flex: 3;
+
+}
